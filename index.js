@@ -2,8 +2,8 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World! This is test sample from aditya');
-  res.send('Hello World! This is test sample from aditya + dt.myDateTime()');
+  res.send('Hello World! >> This is test sample from aditya');
+  res.send('Hello World! This is test sample from aditya raj');
 });
 
 var server = app.listen(3000, function () {
